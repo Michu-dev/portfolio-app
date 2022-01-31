@@ -16,9 +16,7 @@ const About = () => {
                             steps={[
                                 'student',
                                 1000,
-                                'talented programmer',
-                                1000,
-                                'football fan',
+                                'programmer',
                                 1000,
                                 'tutor',
                                 1000

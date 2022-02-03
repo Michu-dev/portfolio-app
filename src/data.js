@@ -55,7 +55,7 @@ export const projects = [
     //   subtitle: "C++",
     //   description:
     //     "The project was made using OpenGL and assimp library to import objects made in Blender. It is possible to open and close the glassed door of the clock and move camera around the object.",
-    //   image: "./Clock1.gif",
+    //   image: "./Clock.gif",
     //   link: "https://github.com/Michu-dev/Mechanical-Clock",
     // },
   ];

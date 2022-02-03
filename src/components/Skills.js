@@ -1,6 +1,7 @@
 import { BadgeCheckIcon, ChipIcon } from "@heroicons/react/solid";
 import React from "react";
 import { skills } from "../data";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export default function Skills() {
   return (
@@ -19,9 +20,10 @@ export default function Skills() {
           {skills.map((skill) => (
             <div key={skill} className="p-2 sm:w-1/2 w-full">
               <div className="bg-gray-800 rounded flex p-4 h-full items-center">
-                <BadgeCheckIcon className="text-green-400 w-6 h-6 flex-shrink-0 mr-4" />
+                {/* <BadgeCheckIcon className="text-green-400 w-6 h-6 flex-shrink-0 mr-4" /> */}
+                <FontAwesomeIcon icon={skill.icon} className={skill.style} />
                 <span className="title-font font-medium text-white">
-                  {skill}
+                  {skill.text}
                 </span>
               </div>
             </div>

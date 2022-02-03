@@ -1,3 +1,6 @@
+import { faJava, faReact, faHtml5, faCss3, faCuttlefish, faPython, faRProject, faGit, faVaadin } from '@fortawesome/free-brands-svg-icons';
+import { faDatabase } from '@fortawesome/free-solid-svg-icons';
+
 export const projects = [
     {
       title: "Java Window App",
@@ -34,12 +37,54 @@ export const projects = [
   ];
 
 export const skills = [
-    "React with Redux",
-    "Java",
-    "HTML",
-    "CSS",
-    "C++",
-    "Python",
-    "R",
-    "SQL"
+    {
+      icon: faReact,
+      text: "React with Redux",
+      style: "text-blue-400 w-6 h-6 flex-shrink-0 mr-4"
+    },
+    {
+      icon: faJava,
+      text: "Java (including Spring, Spring Boot, Hibernate, JavaFX)",
+      style: "text-purple-400 w-6 h-6 flex-shrink-0 mr-4"
+    },
+    {
+      icon: faHtml5,
+      text: "HTML",
+      style: "text-yellow-400 w-6 h-6 flex-shrink-0 mr-4"
+    },
+    {
+      icon: faCss3,
+      text: "CSS",
+      style: "text-blue-400 w-6 h-6 flex-shrink-0 mr-4"
+    },
+    {
+      icon: faCuttlefish,
+      text: "C/C++",
+      style: "text-blue-400 w-6 h-6 flex-shrink-0 mr-4"
+    },
+    {
+      icon: faPython,
+      text: "Python",
+      style: "text-blue-400 w-6 h-6 flex-shrink-0 mr-4"
+    },
+    {
+      icon: faRProject,
+      text: "R",
+      style: "text-blue-400 w-6 h-6 flex-shrink-0 mr-4"
+    },
+    {
+      icon: faDatabase,
+      text: "PL/SQL",
+      style: "text-white-400 w-6 h-6 flex-shrink-0 mr-4"
+    },
+    {
+      icon: faGit,
+      text: "Git",
+      style: "text-green-400 w-6 h-6 flex-shrink-0 mr-4"
+    },
+    {
+      icon: faVaadin,
+      text: "Vaadin",
+      style: "text-blue-400 w-6 h-6 flex-shrink-0 mr-4"
+    }
 ];

@@ -9,10 +9,10 @@ const Projects = () => {
             <div className="flex flex-col w-full mb-20">
                 <CodeIcon className="mx-auto inline-block w-10 mb-4" />
                 <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white">
-                    Apps I've Built
+                    Apps I've Worked On
                 </h1>
                 <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-                    Here are shown a couple of my projects. The remaining projects are available on my GitHub profile, for example analysis of a given dataset.
+                    Here are shown a couple of my projects. The remaining projects are available on my GitHub profile.
                 </p>
             </div>
             <div className="flex flex-wrap -m-4">

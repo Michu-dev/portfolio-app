@@ -25,14 +25,15 @@ const About = () => {
                     </h1>
                     <p className="mb-8 leading-relaxed">
                         I'm a student of Computer Science at Poznan University of Technology. I like to learn modern technology using in web/software development.
-                        I want to land my fist job in web/software development or data science. Actually I'm learning Spring and Hibernate to develop more complex
-                        apps in Java. Also I've been learning React and Redux in which I put a couple apps. Also, I've achieved Data Scientist certification by DataCamp.
+                        I want to land my first job in web/software development or data science. Actually I'm improving my skills in Spring to develop more complex backend
+                        apps in Java. I've been learning React and Redux too in which I put a couple of apps including this one. 
+                        Also, I've achieved some certfications and made some different evolving projects. Some of them are listed here.
                     </p>
                     <div className="flex justify-center">
                         <a
-                            href="#contact"
-                            className="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">
-                            Collaborate
+                            href="/Resume.pdf"
+                            className="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg" download>
+                            Download CV
                         </a>
                         <a 
                             href="#projects"

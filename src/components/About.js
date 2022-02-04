@@ -23,7 +23,7 @@ const About = () => {
                             ]}
                         />
                     </h1>
-                    <p className="mb-8 leading-relaxed">
+                    <p className="mb-8 leading-relaxed text-justify">
                         I'm a student of Computer Science at Poznan University of Technology. I like to learn modern technology using in web/software development.
                         I want to land my first job in web/software development or data science. Actually I'm improving my skills in Spring to develop more complex backend
                         apps in Java. I've been learning React and Redux too in which I put a couple of apps including this one. 
@@ -31,7 +31,7 @@ const About = () => {
                     </p>
                     <div className="flex justify-center">
                         <a
-                            href="/Resume.pdf"
+                            href="/portfolio-app/Resume.pdf"
                             className="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg" download>
                             Download CV
                         </a>
@@ -46,7 +46,7 @@ const About = () => {
                     <img 
                         className="object-cover object-center rounded"
                         alt="hero"
-                        src="Front.jpg"
+                        src="/portfolio-app/Front.jpg"
                     />
                 </div> 
             </div>

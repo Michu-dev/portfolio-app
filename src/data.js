@@ -7,7 +7,7 @@ export const projects = [
       subtitle: "Spring Data JPA + Vaadin",
       description:
         "CRUD database app for all CRUD methods created by using JPA and frontend in Vaadin. Database was invented and built from scratch in PL/SQL using all essential steps in database modelling.",
-      image: "./Database.gif",
+      image: "./portfolio-app//Database.gif",
       link: "https://github.com/filipciesielski7/Football-Database",
     },
     {
@@ -15,7 +15,7 @@ export const projects = [
       subtitle: "Client in Java (JavaFX) + server in C",
       description:
         "IRC-Communicator with TCP server in C and Java client through which the user can join the room, create a new room, send and receive messages in the room, leave the room or remove other users from the own room.",
-      image: "./IRC.gif",
+      image: "./portfolio-app//IRC.gif",
       link: "https://github.com/filipciesielski7/IRC-Communicator",
     },
     {
@@ -23,7 +23,7 @@ export const projects = [
       subtitle: "React + Python (Flask)",
       description:
         "Card recognition algorithm used to find the best poker hand combination from the photos. Frontend was built in React while card recognition in Python using OpenCV library.",
-      image: "./Poker.gif",
+      image: "./portfolio-app//Poker.gif",
       link: "https://github.com/filipciesielski7/Poker-Recognizer",
     },
     {
@@ -31,7 +31,7 @@ export const projects = [
       subtitle: "React with Hooks",
       description:
         "My weather app, made using React. It enables to search for a city and returns 5-day weather. The responses are fetched from openweather API by typing name of a city.",
-      image: "./Weather.gif",
+      image: "./portfolio-app//Weather.gif",
       link: "https://github.com/Michu-dev/Weather",
     },
     {
@@ -39,7 +39,7 @@ export const projects = [
       subtitle: "Spring Boot",
       description:
         "The project for Software Engineering made using Strategy pattern. The application implements 6 various sorting algorithms which can be used to sort different data sets using REST API and compare their sort times.",
-      image: "./Sorting.gif",
+      image: "./portfolio-app//Sorting.gif",
       link: "https://github.com/filipciesielski7/Sorting-Madness",
     },
     {
@@ -47,7 +47,7 @@ export const projects = [
       subtitle: "JavaFX",
       description:
         "The first project implemented in Java using JavaFX technology. It is a 1v1 offline game with the possibility to add version of playing with Computer or 1v1 online with someone else.",
-      image: "./Checkers.gif",
+      image: "./portfolio-app//Checkers.gif",
       link: "https://github.com/Michu-dev/Checkers",
     }
     // {
@@ -55,7 +55,7 @@ export const projects = [
     //   subtitle: "C++",
     //   description:
     //     "The project was made using OpenGL and assimp library to import objects made in Blender. It is possible to open and close the glassed door of the clock and move camera around the object.",
-    //   image: "./Clock.gif",
+    //   image: "./portfolio-app//Clock.gif",
     //   link: "https://github.com/Michu-dev/Mechanical-Clock",
     // },
   ];

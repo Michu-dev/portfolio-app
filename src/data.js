@@ -68,7 +68,7 @@ export const skills = [
     },
     {
       icon: faJava,
-      text: "Java (including Spring, Spring Boot, Hibernate, JavaFX)",
+      text: "Java (including Spring, Spring Boot, JPA/Hibernate, JavaFX)",
       style: "text-purple-400 w-6 h-6 flex-shrink-0 mr-4"
     },
     {

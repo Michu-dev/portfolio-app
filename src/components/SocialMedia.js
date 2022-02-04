@@ -8,7 +8,7 @@ const SocialMedia = () => {
                 href="https://github.com/Michu-dev"
                 className="fa fa-github mx-2 py-2 px-1">
             </a>
-
+            
             <a 
                 href="https://www.linkedin.com/in/micha%C5%82-ciesielski-5ab255192/"
                 className="fa fa-linkedin bg-blue-500 mx-2 py-1 px-1 text-white">

@@ -1,3 +1,6 @@
+---
+permalink: /index.html
+---
 <h1 align="center">
     Portfolio App 💼
 </h1>
